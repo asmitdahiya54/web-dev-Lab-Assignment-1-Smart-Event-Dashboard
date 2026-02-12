@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 20px 50px;
+  align-items: flex-start;
+}
+
+/* CARDS */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.form-card {
+  width: 350px;
+}
+
+.event-card {
+  flex: 1;
+  min-height: 400px;
+}
+
+/* FORM */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  resize: none;
+  height: 70px;
+}
+
+/* BUTTONS */
+.primary-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  background: linear-gradient(90deg, #7b5cff, #6a4df5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  transform: scale(1.03);
+}
+
+.small-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #7b5cff;
+  color: white;
+  margin-left: 5px;
+}
+
+/* CARD HEADER */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* EVENT BOX */
+.event {
+  background: #eef3ff;
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 18px;
+  position: relative;
+}
+
+.event h3 {
+  margin: 0;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  background: #3b82f6;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.delete {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+/* DOM DEMO */
+.dom-demo {
+  margin: 40px 50px;
+}
+
+.demo-box {
+  background: #eef3ff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.key-output {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #4f46e5;
+}
